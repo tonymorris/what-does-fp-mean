@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE sect1 PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+    "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+
+<sect1 id="Compositionality" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Compositionality (Frege's Principle)</title>
+  <sect2>
+    <title>Purity</title>
+    <para>
+      Purity leads to compositionality.
+      <programlisting lang="Java">
+  if(player.score > 0)
+    player.setSwizzle(7);
+  else
+    player.setSwizzle(player.swizzle + 1);</programlisting>
+      Analyse this program. It intertwines purity with impurity (<code>setSwizzle</code>).
+      <programlisting lang="Java">
+  S s = player.score > 0 ? 7 : player.swizzle + 1;
+  player.setSwizzle(s);</programlisting>
+      Now we have untangled it a little.
+    </para>
+  </sect2>
+  <sect2>
+    <title>Measuring compositionality</title>
+    <itemizedlist>
+      <listitem>
+        <para>
+          Supposing a program composed of parts A B C and D and a requirement for program of parts A B C and E.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          The effort required to construct this program should be proportional to the size of E. The extent to which this is true
+          is the extent to which one achieves the central thesis of Functional Programming.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Identifying independent program parts requires very rigorous cognitive discipline and correct concept formation. This can be
+          very (very) difficult after exposure to sloppy thinking habits.
+        </para>
+      </listitem>
+    </itemizedlist>
+  </sect2>
+</sect1>

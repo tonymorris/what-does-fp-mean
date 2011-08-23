@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE sect1 PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+    "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+
+<sect1 id="ReferentialTransparency" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Referential Transparency</title>
+  <programlisting lang="Java">
+X x = function(args);
+R r1 = arbitrary(x);
+R r2 = arbitrary(x);</programlisting>
+  <programlisting>
+R r1 = arbitrary(function(args));
+R r2 = arbitrary(function(args));</programlisting>
+  <itemizedlist>
+    <listitem>
+      <para>
+        If these two programs produce the same outcome then <code>function</code> is <emphasis>referentially transparent</emphasis>.
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+        <emphasis>In a pure functional language, all functions are referentially transparent (aka pure).</emphasis>
+      </para>
+    </listitem>
+  </itemizedlist>
+</sect1>

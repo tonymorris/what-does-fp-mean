@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE sect1 PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+    "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+
+<sect1 id="ToMissThePoint" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>To Miss The Point</title>
+  <sect2>
+    <title>Identifying the Essentials</title>
+    <itemizedlist>
+      <listitem>
+        <para>
+          There are some (many) definitions of <quote>functional programming</quote> that miss the point.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          We may have lengthy discussions about which is correct.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          However, I propose that we remain focussed on the point.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          The Essence of Functional Programming <biblioref linkend="EssenceFP"/> or Why Functional Programming Matters <biblioref linkend="WhyFP"/>.  
+        </para>
+      </listitem>
+    </itemizedlist>
+  </sect2>
+  <sect2>
+    <title>Functional Programming is programming with functions</title>
+      <para>
+        It is often supposed that functional programming is the use of higher-order functions (HOFs).
+        <example>
+          <title>Python</title>
+          <programlisting lang="Python">
+>>> map(lambda a: a + 1, [1, 2, 3])
+[2, 3, 4]</programlisting>
+        </example>
+        <example>
+          <title>C#</title>
+          <programlisting lang="C#">
+csharp> new []{ 1, 2, 3 }.Select(a => a + 1);
+{ 2, 3, 4 }</programlisting>
+        </example>
+        <example>
+          <title>Scala</title>
+          <programlisting lang="Scala">
+scala> List(1, 2, 3) map (1+)
+res0: List[Int] = List(2, 3, 4)</programlisting>
+        </example>
+      </para>
+  </sect2>
+  <sect2>
+    <title>But this misses the point, so...</title>
+    <itemizedlist>
+      <listitem>
+        <para>
+          Some say it is about advanced type system features.
+        </para>
+      </listitem>
+      <listitem>
+        <example>
+          <title>Higher-order polymorphism with rank-n data types</title>
+          <programlisting lang="Haskell">
+data Monad m = M {
+  forall a. a -> m a
+  forall a b. m a -> (a -> m b) -> m b
+}</programlisting>
+          </example>
+      </listitem>
+    </itemizedlist>
+  </sect2>
+  <sect2>
+    <title>But this is off the mark too</title>
+    <itemizedlist>
+      <listitem>
+        <para>
+          We might talk about this all day long.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Is Python a functional language? What about Scala? C#? Java even?
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Am I functional programming? Are you? Is this functional code? What about that?  
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          <emphasis>Who cares!?</emphasis>
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          <emphasis>Stop avoiding the important question; even though it is hard!</emphasis>
+        </para>
+      </listitem>
+    </itemizedlist>
+  </sect2>
+</sect1>

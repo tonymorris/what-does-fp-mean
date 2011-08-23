@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE sect1 PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+    "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+
+<sect1 id="Implications" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Implications</title>
+  <itemizedlist>
+    <listitem>
+      <para>
+        Composable programs are easier to reason about. We may (confidentally) determine program behaviour by determining
+        the behaviour of sub-programs -> fewer bugs.
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+        Composable programs scale indefinitely, by composing more and more sub-programs.
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+        There is no distinction between a "small" and a "large" application; only "smaller than" or "greater than".
+        <footnote>
+          <para>
+            This is why we cannot (refusal) answer the ever common question, "Are there any large programs written using Functional Programming Language X?"
+            It would be dishonest to answer it!
+          </para>
+        </footnote>
+      </para>
+    </listitem>
+  </itemizedlist>
+</sect1>

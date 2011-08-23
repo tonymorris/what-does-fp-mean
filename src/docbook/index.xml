@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
-    "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
-    <!ENTITY % local.common.attrib
-               "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2001/XInclude'">
-]>
+    "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
 
-<article id="DocbookDocument" xmlns:xi="http://www.w3.org/2001/XInclude">
+<article xmlns:xi="http://www.w3.org/2001/XInclude">
   <xi:include href="articleinfo.xml"/>
-  <xi:include href="introduction.xml"/>
+  <xi:include href="Introduction.xml"/>
+  <xi:include href="ToMissThePoint.xml"/>
+  <xi:include href="WhatDoesFPMean.xml"/>
+  <xi:include href="ReferentialTransparency.xml"/>
+  <xi:include href="Compositionality.xml"/>
+  <xi:include href="Implications.xml"/>
+  <xi:include href="Languages.xml"/>
+  <xi:include href="Beware.xml"/>
+  <xi:include href="biblography.xml"/>
   <xi:include href="PGPKEY.xml"/>
   <xi:include href="CC-BY-SA.xml"/>
 </article>

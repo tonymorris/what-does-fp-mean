@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE sect1 PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+    "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+
+<sect1 id="Languages" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Languages</title>
+  <itemizedlist>
+    <listitem>
+      <para>
+        While all turing complete languages are equivalent, some are more amenable to achieving the goals of the FP thesis than others.
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+        Extremely poor: Java (<ulink url="http://functionaljava.org/"/>), Python, Ruby, JavaScript, C, C++
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+        Moderate but still poor: Scala (<ulink url="http://code.google.com/p/scalaz"/>), C#, F#
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+        Practical: Haskell, Clean (<emphasis>pure, lazy functional languages</emphasis>).
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+        There is nothing in between (this is an implication of the central tenet of FP!). We need a revolutionary leap to discontinue
+        the overwhelming, costly mistakes we currently endure and often insist on!
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+        This is unfortunate, but this is true. Let's face the hard facts. Let's understand What Functional Programming Means.
+      </para>
+    </listitem>
+  </itemizedlist>
+</sect1>
