@@ -1,5 +1,5 @@
-Docbook Document
-----------------
+What Does Functional Programming Mean?
+--------------------------------------
 
-A template from which to create a Docbook document.
+Slides for a talk on functional programming.
 
