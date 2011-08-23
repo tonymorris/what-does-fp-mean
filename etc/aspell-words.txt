@@ -1,23 +1,37 @@
-personal_ws-1.1 en 28 
+personal_ws-1.1 en 43 
 organization
+turing
 waivable
 AUTHORIZED
+JavaScript
 synching
 Ssection
+von
+de
+facto
 phonogram
 sublicense
 Docbook
+Scala
 recognizably
+Neumann
+HOFs
 Licence
 ShareAlike
 TODO
 pre
 NONINFRINGEMENT
+OO
 utilizing
+Composable
 Unported
+confidentally
 PGP
 Licensor's
+compositionality
+focussed
 honor
+FP
 dramatico
 MERCHANTIBILITY
 CCPL
@@ -27,3 +41,4 @@ synchronization
 Licensor
 Berne
 phonograms
+Frege's
